@@ -1,0 +1,524 @@
+@font-face {
+    font-family: headings;
+    src: url(./Rejouice-Headline.woff2);
+}
+
+@font-face {
+    font-family: plain-light;
+    src: url(./NBInternationalProBoo.woff2);
+}
+
+html,body{
+    height: 100%;
+    width: 100%;  
+    overflow: hidden !important; 
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: plain-light;
+}
+
+#main{
+    width: 100%;
+    position: relative;
+  
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    background-color: #F8F9F3;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 2vw;
+    position: fixed;
+    z-index: 99;
+    flex-direction: row-reverse;
+}
+#leftNav{
+    height: 100%;
+    padding-top: 10px;
+}
+#leftNav img{
+    height: 14vw;
+    transform: translate(30%,-35%);
+}
+
+#rightNav{
+    width: 20%;
+}
+
+#middlenav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px; 
+    gap: 30px;
+}
+
+#middlenav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #2e1b00;
+}
+ #middlenav a:nth-child(1){
+    color: #DCAC6E;
+ }
+
+#img-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+#img-container img{
+    height: 100%;
+    width: 100vw;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+#page1content{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: 80;
+    display: flex;
+}
+#page1content span{
+    color: #DCAC6E;
+}
+#leftpage1{
+    padding-left: 200px;
+}
+#page1content h1{
+    font-size: 10vw;
+    font-family: headings;
+    font-weight: 100;
+    margin-top: 24vh; 
+    color: #2e1b00;
+}
+#page1content img{
+    height: 100vh;
+    width: 40vw;
+    object-fit: cover;
+}
+#page1content h4{
+    font-size: 3vw;
+    font-family:plain-light;
+    font-weight: 100;
+    width: 40vw;
+}
+#page2{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9E0BB;
+}
+
+
+#leftpage2{
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#leftpage2 h1{
+    font-size: 2.1vw;
+    font-weight: 100;
+    color: #2e1b00;
+    text-transform: capitalize;
+}
+
+#leftpage2 h4{
+    font-size: 1.1vw;
+    font-weight: 100;
+    color: #2e1b00b3;
+    text-align: center;
+}
+
+#nutrition{
+    height: 100vh;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+#nutrition svg{
+    width: 300vw;
+    transform: translateX(-38%);
+    height: 100vh;
+}
+
+#page2 img{
+    transform: translateY(30%);
+    height: 120%;
+}
+#top{
+    font-family: headings;
+    position: absolute;
+    top: 13%;
+    left: 24%;
+    width: 30vw;
+    font-weight: 100;
+    font-size:8vw;
+    color: #F8F9F3;
+}
+
+#nutrition p{
+    position: absolute;
+    top: 34%;
+    left: 30%;
+    width: 32vw;
+    font-weight: 100;
+    font-size: 1.6vw;
+    color: #fff;
+}
+#nutrition span{
+    font-weight: 900;
+    font-size: 2vw;
+    color: #ffffffa7;
+    margin-right: 10px;
+    
+}
+
+#new{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #FFDEC0;
+    padding-top: 50px;
+    position: relative;
+}
+#newHeading{
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+#newHeading h1{
+    width: 50%;
+    text-align: start;
+    color: #2e1b00;
+    font-weight: 100;
+    padding-left: 120px;
+}
+
+#quotes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-left: 100px;
+    padding-bottom: 150px;
+}
+
+.quote{
+    height: 340px;
+    width: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#qUp1{
+    height: 50%;
+    width: 100%;
+    background-image: url(./img-4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#qUp2{
+    height: 50%;
+    width: 100%;
+    background-image: url(./img-3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#qDown{
+    height: 50%;
+    width: 100%;
+    background-color: #faf5ef;
+    padding: 20px;
+}
+
+#qDown h2{
+    font-size: 1.2vw;
+    color: #2e1b00b3;
+    
+}
+
+#additional{
+    height: 340px;
+    width: 250px;
+    background-color: #2e1b00;
+    border-radius: 30px;
+}
+
+#extsvg svg{
+    height: 400px;
+    position: absolute;
+    left: 75%;
+    top: 24.06%;
+}
+
+#products{
+    height: 120vh;
+    width: 100vw;
+    background-color: #3A261C;
+    background-image: linear-gradient(150deg,#3A261C 80%,#3a261cd4 20%,#3a261c00 10%);
+}
+
+#productDets{
+    display: flex;
+    align-items: center;
+}
+#leftDets img{
+    height: 500px;
+    rotate: 90deg;
+}
+#rightDets{
+    width: 80%;
+    color: #F8F9F3;
+    padding-left: 200px;
+}
+#rightDets h1{
+    font-size: 3vw;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+#vitamins{
+    display: flex;
+    gap: 120px;
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+#rightDets p{
+    width: 700px;
+    font-size: 1.5vw;
+    font-weight: 100;
+    color: #f8f9f37b;
+}
+
+#listProds{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 70px;
+}
+
+.prod{
+    height: 450px;
+    width: 350px;
+    background-color: #F8F9F3;
+    border-radius: 20px;
+    overflow: hidden;
+    color: #2e1b00;
+    padding: 10px;
+}
+
+.prod img{
+    height: 90%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 15px;
+    object-position: center;
+}
+
+#benefits{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F8F9F3;
+}
+
+#page3{
+    background-color: #F8F9F3;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 0vh;
+    position: relative;
+}
+
+#page3 #background{
+    height: 100vh;
+    width: 100vw;
+}
+
+#data{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#cardimg{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.5);
+}
+
+#page3card{
+    height: 50vh;
+    width: 35vw;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 6vh 9vw;
+    color: #2e1b00;
+    border-radius: 20px;
+}
+#page3card h5{
+    font-family: plain-light;
+    font-weight: 600;
+    font-size: 1vw;
+}
+#page3card h1{
+    font-weight: 100;
+    font-size: 7vw;
+    margin-bottom: 20px;
+}
+#page3card h4{
+    font-weight: 600;
+    font-size: 1.1vw;
+}
+
+
+#sidenav{
+    height: 100vh;
+    width: 40vw;
+    background-color: #DCAC6E;
+    position: absolute;
+    top: 0%;
+    z-index: 100;
+    left: -40vw;
+    display: flex;
+    padding: 40px 60px;
+    flex-direction: column;
+    gap: 150px;
+    
+
+}
+
+#sidenav h1{
+    color: #fff;
+    font-size: 2.5vw;
+}
+
+
+#tags{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#crossi i{
+    font-weight: 100;
+    scale: 3;
+    color: #fff;
+    display: inline-block;
+}
+
+.line{
+    height: 1px;
+    width: 60px;
+    background-color: #fff;
+}
+
+#line1{
+    rotate: 45deg;
+}
+#line2{
+    rotate: -45deg;
+}
+
+#page4{
+    height: 100vh;
+    width: 100vw;
+    background-color: #382E2F;
+    position: fixed;
+    z-index: -9;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#page5{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+}
+#page4 h1{
+    font-size: 30vw;
+    color: #fff;
+    font-weight: 100;
+    font-family: headings;
+    transform: translateY(-32%);
+}
+#contactHeading{
+    height: 60%;
+    width: 100%;
+    transform: translateY(0%);
+    overflow: hidden;
+}
+#contacts{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 100px 100px;
+    gap: 100px;
+}
+#tabs{
+    display: flex;
+    flex-direction: column;
+    color: #F8F9F3;
+    font-size: 1.5vw;
+    gap: 10px;
+}
+#social{
+    display: flex;
+    flex-direction: column;
+    color: #F8F9F3;
+    font-size: 1.5vw;
+    gap: 10px;
+}
+#social a{
+    color: #F8F9F3;
+}
+#rightCon{
+    display: flex;
+    align-items: flex-end;
+    gap: 100px;
+}
+#address{
+    color: #F8F9F3;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 20px;
+}
+#footer span{
+    display: inline-block;
+}
